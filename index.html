@@ -2,12 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>ROBERTO-TELEFLIX</title>
+  <title>quimnerd</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>ROBERTO-TELEFLIX</h1>
+    <h1>quimnerd</h1>
   </header>
 
   <!-- LAYOUT: MENU LATERAL (ESQ) + VÍDEO (DIR) -->
@@ -72,40 +72,37 @@
     // Mapa de temas → lista de vídeos
     const TEMAS = {
       animes: [
-        { titulo: "", 
-         autor: "", 
-         url: "" 
+        { titulo: "trailer de Demon Slayer", 
+         autor: "crunchyroll", 
+         url: "https://youtu.be/3UiP4GwWNv0?si=CAvsOIDU3PsWfySq" 
         },
-        { titulo: "", 
-         autor: "", 
-         url: "" 
+        { titulo: "trailer de gachiakuta", 
+         autor: "crunchyroll", 
+         url: "https://youtu.be/XxvHDUw_4jc?si=BN3dFAMqcUAsicay" 
         },
-        { titulo: "", 
-         autor: "", 
-         url: "" 
-        },
-      ],
-      musicas: [
-        { titulo: "O TEMPO É CURTO; FAÇA O MELHOR USO DO SEU TEMPO", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/fmsAqGy2pCM?si=u8aCy5Lwjoj80xAB" 
-        },
-        { titulo: "QUEM É JESUS CRISTO?", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/6ATJ6avomUg?si=4_qlxZGejDlxVyz5" 
+        { titulo: "trailer de Re zero 4 temporada", 
+         autor: "crunchyroll", 
+         url: "https://youtu.be/8i3V6IMwW_A?si=DGVLyraCP8pxzVyc" 
         },
       ],
       jogos: [
-        { titulo: "SOY UNA TAZA", 
-         autor: "CANTA JUEGO", 
-         url: "https://youtu.be/cgEnBkmcpuQ?si=paA3pkAIp3lgAmjQ" 
+        { titulo: "trailer de Gta 6", 
+         autor: "rokstar", 
+         url: "https://youtu.be/IpSDW3Mq-7E?si=DRc9Dm1Y-xCQ9wuQ" 
         },
-        { titulo: "PEDRO, THIAGO, JOÃO NO BARQUINHO", 
-         autor: "3 PALAVRINHAS", 
-         url: "https://youtu.be/Tdwy3BZe61s?si=As38T49IC695wKE0" 
+        { titulo: "trailer de Ea 26", 
+         autor: "Ea sports", 
+         url: "https://youtu.be/TSi0iJYSQ24?si=689ANjhxw8lIv3s4" 
         },
-      ],
-      AULAS: [
+        { titulo: "Hollow Knight: Silksong", 
+         autor: "team cherry", 
+         url: "https://youtu.be/6XGeJwsUP9c?si=c6D20hM5qVyYgSzK" 
+        filmes: [ 
+        },
+        { titulo: "", 
+         autor: "", 
+         url: "" 
+        },
         { titulo: "INTRODUÇÃO A JAVASCRIPT", 
          autor: "TIGER CODES", 
          url: "https://youtu.be/WRlfwBof66s?si=0o80ULtCNqjj-lU2" 
@@ -115,8 +112,19 @@
          url: "https://www.youtube.com/watch?v=5Hn58p-hYC0" 
         },
       ],
-    };
-
+      AULAS: [ 
+        },
+        { titulo: "PEDRO, THIAGO, JOÃO NO BARQUINHO", 
+         autor: "3 PALAVRINHAS", 
+         url: "https://youtu.be/Tdwy3BZe61s?si=As38T49IC695wKE0" 
+        },
+        { titulo: "INTRODUÇÃO A JAVASCRIPT", 
+         autor: "TIGER CODES", 
+         url: "https://youtu.be/WRlfwBof66s?si=0o80ULtCNqjj-lU2" 
+        },
+        { titulo: "HTML E CSS BÁSICO EM 5 MINUTOS", 
+         autor: "TIGER CODES", 
+         url: "https://www.youtube.com/watch?v=5Hn58p-hYC0" 
     // Seletores
     const selectTema = document.getElementById("tema");
     const menuUl     = document.getElementById("menu-temas");
